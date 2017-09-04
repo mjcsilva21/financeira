@@ -1,0 +1,15 @@
+a base de dados foi criada utilizando hsqldb-2.3.3
+
+descompactar o arquivo data.zip e rodar o arquivo financeira.cmd
+
+Rodar o HSQL Database Manager (pasta bin rodar o runManagerSwing.bat)
+
+Tipo de conexão é HSQL Database Engine Server
+Driver: org.hsqldb.jdbcDriver
+URL: jdbc:hsqldb:hsql://localhost/financeira
+User: SA
+Password: deixar em branco 
+
+Depois é só rodar os arquivos .xhtml dentro da pasta WEB-INF pelo eclipse
+
+O Servidor do projeto é o wildfly 
